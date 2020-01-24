@@ -15,7 +15,36 @@ body{
 
 /* menu base styles */
 
+nav{
+    background: yellowgreen;
+}
 
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
 
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
 
+nav a:hover{
+    background: tomato;
+}
 /* flex styles */
+
+@media screen and (min-width:768px){
+    nav ul{
+        display: flex;
+        justify-content: flex-start
+    }
+
+    nav li{
+       flex: 1 1 0;
+    }
+
+}
