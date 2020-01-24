@@ -16,21 +16,19 @@ body{
 .flex-container{
     display: flex;
     background-color: white;
-    
     flex-wrap: wrap;
-    
+    flex-flow: column-reverse;
+    justify-content: flex-start ;
+    height: 800px;
 }
 
 .box{
     height: 100px;
-    flex: 1;
-
- 
+    flex: 0 0 100px;
 }
 
 .one{
     background-color: red;
-
 }
 
 .two{
@@ -39,3 +37,4 @@ body{
 
 .three{
     background-color: green;
+}
